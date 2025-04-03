@@ -1,0 +1,9 @@
+torch
+transformers
+pillow
+opencv-python
+pytesseract
+pandas
+argparse
+# Detectron2: refer to https://github.com/facebookresearch/detectron2/blob/main/INSTALL.md for your configuration.
+detectron2==0.6

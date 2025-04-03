@@ -1,0 +1,33 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment folders
+OCR_env/
+env/
+venv/
+
+# Ignore dataset files
+annot.csv
+img.csv
+annot.parquet
+img.parquet
+train_val_images/
+train_val_images.zip
+
+# Ignore model outputs and checkpoints
+output/
+*.pt
+*.ckpt
+
+# Jupyter and system files
+.ipynb_checkpoints/
+.DS_Store
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
